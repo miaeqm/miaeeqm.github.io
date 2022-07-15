@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -15px;
+  color: red;
+}
+
+iframe {
+  height: 900px;
+  width: 400px;
+}
+
+.date {
+  color: red;
+}
