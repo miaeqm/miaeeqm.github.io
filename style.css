@@ -17,8 +17,11 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
+  justify-content: flex-end;
 }
-
+.nam {
+  color: red;
+}
 .name {
   display: flex;
   justify-content: flex-end;
@@ -27,10 +30,20 @@ aside {
 }
 
 iframe {
-  height: 900px;
-  width: 400px;
+  height: 900px
 }
 
 .date {
   color: red;
+}
+
+foto {
+  width: 15px;
+  height: 15px;
+}
+
+sponsor {
+   display: flex;
+  flex-direction: column;
+  color: gray;
 }
