@@ -17,11 +17,8 @@ article {
 aside {
   flex: 1;
   overflow-y: auto;
-  justify-content: flex-end;
 }
-.nam {
-  color: red;
-}
+
 .name {
   display: flex;
   justify-content: flex-end;
@@ -35,15 +32,4 @@ iframe {
 
 .date {
   color: red;
-}
-
-foto {
-  width: 15px;
-  height: 15px;
-}
-
-sponsor {
-   display: flex;
-  flex-direction: column;
-  color: gray;
 }
